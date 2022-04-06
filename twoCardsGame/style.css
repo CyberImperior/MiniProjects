@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-cards-game {
+  width: 1000px;
+  margin: 30px auto;
+}
+
+.cards {
+  display: inline-block;
+  width: 100px;
+  height: 150px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+}
+
+.oneCard {
+  background: url("img/1.webp") no-repeat;
+  background-size: cover;
+}
+
+.back  {
+  background: url("img/backOfCards.jpg") no-repeat !important;
+  background-size: cover;
+}
+
+.show {
+  display: inline-block;
+}
+
+.hide {
+  display: none;
+}
